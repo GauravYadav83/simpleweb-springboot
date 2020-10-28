@@ -10,12 +10,7 @@ pipeline {
         }
    }
       
-      stage('Build') {
-        steps {
-          echo 'Building...'
-          sh './gradlew build'
-        }
-   }
+      
       stage('Build Jar') {
          steps {
              echo 'Deploying...'
