@@ -21,7 +21,6 @@ pipeline {
         steps {
           echo 'Deploying...'
           sh 'java -jar target/simpleweb-springboot-*.jar '
-	  sh './gradlew bootRun'
         }
    }
  
